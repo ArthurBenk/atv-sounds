@@ -1,0 +1,75 @@
+/*============================
+            css reset
+=============================*/
+
+*{
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0
+}
+/*============================
+        formatação geral
+=============================*/
+html{
+    font-size: 1vw;
+    margin: 2vw 10vw 3vw 10vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*============================
+    formatação do topo da pagina
+=============================*/
+html body header nav div{
+    display: flex;
+}
+html body header nav div ul li a{
+ color: #121212;
+ text-decoration: none;
+ margin: 0 4vw;
+ font-weight: bold;
+}
+html body header nav div ul{
+    display: flex;
+    margin: 0.2vw 0 0 45vw;
+}
+section.banner{
+    display: flex;
+    margin: 8vw 0 5vw 0;
+    border-bottom: 2px solid lightgrey;
+    padding: 0 0 5vw 0 ;
+}
+section.banner div{
+    margin: 5vw 0 0 13vw;
+ }
+section.banner div h1{
+    font-size: 3rem;
+    margin: 0 0 3vw 0;
+    line-height: 3.5rem;
+}
+section.banner div p{
+    margin: 0 0 3vw 0;
+}
+section.banner div div img{
+    margin: 0 1vw 3vw 0;
+}
+section.banner div div {
+    display: flex;
+    margin: 0 0 0 0;
+}
+section.banner div div p span{
+    color: lightgrey;
+}
+section.browse{
+    display: flex;
+}
+section.browse div.titulo{
+    margin: 0 16vw 0 0;
+}
+section.browse div.titulo h2{
+    font-size: 3vw;
+    margin: 0 0 2vw;
+}
+section.browse div.lista h3{
+
+}
